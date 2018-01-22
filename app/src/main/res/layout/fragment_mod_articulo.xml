@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jorgeyya.ejfirebase.FragmentInicio">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Spinner
+        android:id="@+id/spinner_nombre_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/art_anterior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Introduzca el nombre del producto"
+        android:inputType="textPersonName"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduzca la nueva información, si no se escribe nada e dejara como está." />
+
+    <EditText
+        android:id="@+id/new_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="textPersonName"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/new_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/new_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="descripcion"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/new_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="categoria"
+        android:inputType="textPersonName"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/spinner_categoria_mod_art"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/new_precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="precio"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_mod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar" />
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrar producto" />
+</LinearLayout>

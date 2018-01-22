@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jorgeyya.ejfirebase.FragmentInicio">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/nombre_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre de usuario"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buscar" />
+
+    <ListView
+        android:id="@+id/lista_articulos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

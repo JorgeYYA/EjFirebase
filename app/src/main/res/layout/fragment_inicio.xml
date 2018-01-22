@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jorgeyya.ejfirebase.FragmentInicio">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/add_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir usuario" />
+
+    <Button
+        android:id="@+id/ver_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver usuarios" />
+
+    <Button
+        android:id="@+id/mod_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="modificar usuario" />
+
+    <Button
+        android:id="@+id/add_articulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="añadir artículo" />
+
+    <Button
+        android:id="@+id/ver_art_por_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver articulos por usuario" />
+
+    <Button
+        android:id="@+id/ver_art_por_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ver articulos por categoria" />
+
+    <Button
+        android:id="@+id/mod_art"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="modificar articulos" />
+
+    <Button
+        android:id="@+id/button_fav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="añadir Favoritos" />
+
+    <Button
+        android:id="@+id/ver_fav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ver Favoritos" />
+</LinearLayout>
